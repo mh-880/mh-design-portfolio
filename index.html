@@ -1,0 +1,668 @@
+<!doctype html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MH Design Portfolio</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Allura&family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Cormorant:ital,wght@0,300..700;1,300..700&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Dancing+Script:wght@400..700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Klee+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans+JP:wght@100..900&family=Noto+Serif+JP:wght@200..900&family=Yomogi&family=Zen+Kurenaido&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/hero-orbs.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container header-inner">
+            <a href="#" class="logo">
+                <img src="./assets/images/logo.png" alt="MH Design Portfolio Logo" />
+                <span>MH Design Portfolio</span>
+            </a>
+
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li>
+                        <a href="#home">
+                            <span class="en">HOME</span>
+                            <span class="jp">ホーム</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#works">
+                            <span class="en">WORKS</span>
+                            <span class="jp">実績</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#about">
+                            <span class="en">ABOUT</span>
+                            <span class="jp">私について</span>
+                        </a>
+                    </li>
+
+                    
+                    <li>
+                        <a href="#flow">
+                            <span class="en">FLOW</span>
+                            <span class="jp">制作の流れ</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#contact">
+                            <span class="en">CONTACT</span>
+                            <span class="jp">お問い合わせ</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+
+            <button class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero" id="home">
+        <div class="hero-bg"></div>
+        
+        <div class="hero-orbs">
+            <!-- Small -->
+            <div class="orb-wrap orb-1">
+                <div class="orb-float">
+                    <div class="orb-light"></div>
+                    <div class="orb">
+                        <img src="./assets/images/ガラス玉(小).webp" alt="">
+                    </div>
+                </div>
+            </div>
+            <!-- Medium -->
+            <div class="orb-wrap orb-2">
+                <div class="orb-float">
+                    <div class="orb-light"></div>
+                    <div class="orb">
+                        <img src="./assets/images/ガラス玉(中).webp" alt="">
+                    </div>
+                </div>
+            </div>
+            <!-- Large -->
+            <div class="orb-wrap orb-3">
+                <div class="orb-float">
+                    <div class="orb-light"></div>
+                    <div class="orb">
+                        <img src="./assets/images/ガラス玉(大).webp" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="hero-inner">
+            <div class="hero-text">
+                <p class="hero-sub">Banner / LP / Web Design</p>
+
+                <h1>
+                    ターゲットに届き、<br>
+                    <span>成果につながる</span><br>
+                    Webデザインを。
+                </h1>
+
+                <p class="hero-description">
+                    バナー / LP / Webデザイン対応<br>
+                    目的に合わせた設計で、“選ばれる理由”を形にします
+                </p>
+
+                <a href="#contact" class="btn-primary"> お問い合わせはこちら </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Works -->
+    <section class="works section" id="works">
+        <div class="decoration-wrap">
+            <div class="works-dots"></div>
+            <div class="works-dots2"></div>
+        </div>
+        <div class="container">
+            <div class="section-heading">
+                <span class="section-en">WORKS</span>
+                <h2>制作実績</h2>
+                <div class="works-btn">
+                    <div class="btn-list">
+                        <button id="all" class="btn active">すべて</button>
+                        <button id="banner" class="btn">バナー</button>
+                        <button id="lp" class="btn">LP</button>
+                        <!-- <button id="web" class="btn">Web</button> -->
+                    </div>
+                </div>
+            </div>
+
+            <!-- all -->
+            <div id="all-list" class="works-grid works-list active">
+                
+                <!-- Card 1 -->
+                <a href="works/banner01.html" class="work-card banner" target="_blank">
+                    <div class="work-image">
+                        <img src="./assets/images/achievements/banner/no image.png" alt="" />
+                    </div>
+                    <div class="work-content">
+                        <span class="tag">バナー</span>
+                        <h3>クーポン訴求バナー</h3>
+                        <p>視認性とクリック率を意識したSNS広告バナー</p>
+                    </div>
+                </a>
+
+                <!-- Card 2 -->
+                <a href="works/lp01.html" class="work-card banner" target="_blank">
+                    <div class="work-image">
+                        <img src="./assets/images/achievements/banner/no image.png" alt="" />
+                    </div>
+                    <div class="work-content">
+                        <span class="tag">バナー</span>
+                        <h3>お教室向けAI講座</h3>
+                        <p>申込率向上を目的としたLPヘッダー設計</p>
+                    </div>
+                </a>
+
+                <!-- Card 3 -->
+                <a href="works/lp01.html" class="work-card lp" target="_blank">
+                    <div class="work-image">
+                        <img src="./assets/images/achievements/lp header/no image.png" alt="" />
+                    </div>
+                    <div class="work-content">
+                        <span class="tag">LP</span>
+                        <h3>お教室向けAI講座</h3>
+                        <p>申込率向上を目的としたLPヘッダー設計</p>
+                    </div>
+                </a>
+
+                <!-- Card 4 -->
+                <a href="works/lp01.html" class="work-card lp" target="_blank">
+                    <div class="work-image">
+                        <img src="./assets/images/achievements/lp header/no image.png" alt="" />
+                    </div>
+                    <div class="work-content">
+                        <span class="tag">LP</span>
+                        <h3>お教室向けAI講座</h3>
+                        <p>申込率向上を目的としたLPヘッダー設計</p>
+                    </div>
+                </a>
+
+                <!-- Card 5 -->
+                <a href="works/lp01.html" class="work-card banner" target="_blank">
+                    <div class="work-image">
+                        <img src="./assets/images/achievements/banner/no image.png" alt="" />
+                    </div>
+                    <div class="work-content">
+                        <span class="tag">LP</span>
+                        <h3>お教室向けAI講座</h3>
+                        <p>申込率向上を目的としたLPヘッダー設計</p>
+                    </div>
+                </a>
+
+                <!-- Card 6 -->
+                <a href="works/lp01.html" class="work-card banner" target="_blank">
+                    <div class="work-image">
+                        <img src="./assets/images/achievements/banner/no image.png" alt="" />
+                    </div>
+                    <div class="work-content">
+                        <span class="tag">LP</span>
+                        <h3>お教室向けAI講座</h3>
+                        <p>申込率向上を目的としたLPヘッダー設計</p>
+                    </div>
+                </a>
+
+                <!-- Card 7 -->
+                <a href="works/lp01.html" class="work-card banner" target="_blank">
+                    <div class="work-image">
+                        <img src="./assets/images/achievements/banner/no image.png" alt="" />
+                    </div>
+                    <div class="work-content">
+                        <span class="tag">LP</span>
+                        <h3>お教室向けAI講座</h3>
+                        <p>申込率向上を目的としたLPヘッダー設計</p>
+                    </div>
+                </a>
+
+                <!-- Card 8 -->
+                <a href="works/lp01.html" class="work-card banner" target="_blank">
+                    <div class="work-image">
+                        <img src="./assets/images/achievements/banner/no image.png" alt="" />
+                    </div>
+                    <div class="work-content">
+                        <span class="tag">LP</span>
+                        <h3>お教室向けAI講座</h3>
+                        <p>申込率向上を目的としたLPヘッダー設計</p>
+                    </div>
+                </a>
+
+                <!-- Card 9 -->
+                <a href="works/lp01.html" class="work-card banner" target="_blank">
+                    <div class="work-image">
+                        <img src="./assets/images/achievements/banner/no image.png" alt="" />
+                    </div>
+                    <div class="work-content">
+                        <span class="tag">LP</span>
+                        <h3>お教室向けAI講座</h3>
+                        <p>申込率向上を目的としたLPヘッダー設計</p>
+                    </div>
+                </a>
+            </div>
+            <div class="works-more">
+                <button id="show-more-btn" class="btn-more">
+                    すべての実績を見る
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section class="about section" id="about">
+        <div class="container">
+            <div class="section-heading">
+                <span class="section-en">
+                    ABOUT
+                </span>
+                <h2>私について</h2>
+            </div>
+            <div class="about-wrapper">
+                
+                <!-- 左 -->
+                <div class="about-content">
+                    <span class="about-bg-text">
+                        About me
+                    </span>
+                    <h3>
+                        ターゲットに届き、反応が取れるデザインを制作します。<br>
+                        <br>
+                        バナー・LP制作を中心に、<br>
+                        お客様の目的達成につながるデザインをご提案します。
+                    </h3>
+                    <p>
+                        Webデザイナーとして、<br>
+                        「誰に、何を伝えるか」を大切に、<br>
+                        目的に沿ったデザインを制作しています。
+                    </p>
+                    <p>
+                        ヒアリングを通して課題や想いを整理し、<br>
+                        伝わりやすく使いやすいデザインをご提案します。
+                    </p>
+                    <p>
+                        ご相談段階から丁寧に対応いたしますので、<br>
+                        お気軽にお問い合わせください。
+                    </p>
+                </div>
+
+                <!-- 右 -->
+                <div class="about-visual">
+                    <div class="decoration-wrap">
+                        <span class="blob about-blob-1"></span>
+                        <span class="blob about-blob-2"></span>
+                        <span class="blob about-blob-3"></span>
+                        <div class="about-dots"></div>
+                    </div>
+                    <div class="about-illustration">
+                        <img src="./assets/images/about-image.png" alt="">
+                    </div>
+                    <div class="about-cards">
+                        <div class="about-card">
+                            <div class="card-icon">
+                                <img src="./assets/images/target.png" alt="">
+                            </div>
+                            <h4>
+                                ターゲット視点
+                            </h4>
+                            <p>
+                                ユーザーの視点に立ち、<br>
+                                伝わりやすいデザインを<br>
+                                心がけています。
+                            </p>
+                        </div>
+                        <div class="about-card">
+                            <div class="card-icon">
+                                <img src="./assets/images/purpose.png" alt="">
+                            </div>
+                            <h4>
+                                目的に合わせた設計
+                            </h4>
+                            <p>
+                                目的や課題を整理し、<br>
+                                成果につながるデザインを<br>
+                                ご提案します。
+                            </p>
+                        </div>
+                        <div class="about-card">
+                            <div class="card-icon">
+                                <img src="./assets/images/production.png" alt="">
+                            </div>
+                            <h4>
+                                丁寧な制作
+                            </h4>
+                            <p>
+                                細部までこだわり、<br>
+                                見やすく使いやすい<br>
+                                デザインを制作します。
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 下 -->
+            <div class="skill-box">
+                <div class="skill-content">
+                    <div class="skill-heading">
+                        <h4>対応スキル</h4>
+                    </div>
+                    <ul class="skill-list">
+                        <li>バナー制作</li>
+                        <li>LPデザイン</li>
+                        <li>Webデザイン</li>
+                        <li>情報設計・レイアウト</li>
+                        <li>画像加工・修正</li>
+                        <li>ワイヤーフレーム作成</li>
+                    </ul>
+                </div>
+
+                <!-- 右 -->
+                <div class="tool-content">
+                    <div class="skill-heading">
+                        <h4>使用ツール</h4>
+                    </div>
+                    <div class="tool-list">
+                        <div class="tool-item">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/photoshop/photoshop-original.svg" />
+                            <span>Photoshop</span>
+                        </div>
+                        <div class="tool-item">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/illustrator/illustrator-original.svg" />
+                            <span>Illustrator</span>
+                        </div>
+                        <div class="tool-item">      
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg" />
+                            <span>Figma</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Flow -->
+    <section class="flow section" id="flow">
+        <div class="flow-bg-text">Process</div>
+
+        <div class="decoration-wrap">
+            <span class="blob flow-blob"></span>
+        
+
+            <div class="flow-circle circle-1"></div>
+            <div class="flow-circle circle-2"></div>
+
+            <div class="flow-dots-1"></div>
+            <div class="flow-dots-2"></div>
+        </div>
+
+        <div class="container">
+
+            <!-- heading -->
+            <div class="section-heading">
+                <span class="section-en">
+                    FLOW
+                </span>
+                <h2>制作の流れ</h2>
+                <p>
+                    ヒアリングから納品まで、
+                    丁寧に進めさせていただきます。
+                </p>
+            </div>
+
+            <!-- flow cards -->
+            <div class="flow-list">
+                <!-- step1 -->
+                <div class="flow-item">
+                    <span class="flow-number">01</span>
+                    <div class="flow-icon">
+                        <img src="./assets/images/相談.svg" alt="">
+                    </div>
+                    <h4>ご相談</h4>
+                    <p>
+                        まずはご相談ください。<br>
+                        制作内容やご希望を事前に確認いたします。
+                    </p>
+                </div>
+
+                <!-- step2 -->
+                <div class="flow-item">
+                    <span class="flow-number">02</span>
+                    <div class="flow-icon">
+                        <img src="./assets/images/ヒアリング.svg" alt="">
+                    </div>
+                    <h4>ヒアリング</h4>
+                    <p>
+                        目的やターゲット、ご要望を詳しく伺い、<br>
+                        方向性を整理します。
+                    </p>
+                </div>
+
+                <!-- step3 -->
+                <div class="flow-item">
+                    <span class="flow-number">03</span>
+                    <div class="flow-icon">
+                        <img src="./assets/images/提案.svg" alt="">
+                    </div>
+                    <h4>ご提案</h4>
+                    <p>
+                        ヒアリングをもとに、<br>
+                        デザイン案とお見積りをご提案いたします。
+                    </p>
+                </div>
+
+                <!-- step4 -->
+                <div class="flow-item">
+                    <span class="flow-number">04</span>
+                    <div class="flow-icon">
+                        <img src="./assets/images/制作.png" alt="">
+                    </div>
+                    <h4>デザイン制作</h4>
+                    <p>
+                        情報設計をもとに、<br>
+                        見やすく伝わるデザインを制作いたします。
+                    </p>
+                </div>
+
+                <!-- step5 -->
+                <div class="flow-item">
+                    <span class="flow-number">05</span>
+                    <div class="flow-icon">
+                        <img src="./assets/images/チェック.svg" alt="">
+                    </div>
+                    <h4>ご確認</h4>
+                    <p>
+                        ご確認後、必要に応じて<br>
+                        修正を行い、完成度を高めます。
+                    </p>
+                </div>
+
+                <!-- step6 -->
+                <div class="flow-item">
+                    <span class="flow-number">06</span>
+                    <div class="flow-icon">
+                        <img src="./assets/images/納品.svg" alt="">
+                    </div>
+                    <h4>納品・公開</h4>
+                    <p>
+                        完成データの納品、<br>
+                        または公開対応までサポートいたします。
+                    </p>
+                </div>
+            </div>
+
+            <!-- bottom info -->
+            <div class="flow-note">
+                <div class="note-left">
+                    <div class="note-icon">
+                        ✓
+                    </div>
+                    <p>
+                        ご相談・お見積りは
+                        無料です
+                    </p>
+                </div>
+                <div class="note-right">
+                    <p>
+                        「こんなデザインできる？」
+                        「まだイメージが固まっていない」
+                        という段階でも、<br>
+                        お気軽にご相談ください。
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact section" id="contact">
+
+    <!-- 背景装飾 -->
+        <div class="contact-bg-text">
+            Contact
+        </div>
+        <div class="decoration-wrap">
+            <div class="contact-blob-1"></div>
+            <div class="contact-blob-2"></div>
+
+            <div class="contact-dots"></div>
+        </div>
+        
+        <div class="container">
+            <!-- heading -->
+            <div class="section-heading">
+                <span class="section-en">
+                    CONTACT
+                </span>
+                <h2>
+                    お気軽にご相談ください
+                </h2>
+                <p>
+                    デザインのこと、まずは気軽にお話ししてみませんか？<br>
+                    ご相談・お見積りは無料です。下記フォームよりお問い合わせください。
+                </p>
+            </div>
+
+            <!-- 上BOX -->
+            <div class="contact-feature-box">
+                <div class="contact-feature">
+                    <div class="feature-icon">
+                        <img src="./assets/images/相談だけ.svg" alt="">
+                    </div>
+                    <h3>
+                        相談だけでもOK
+                    </h3>
+                    <p>
+                        内容が決まっていなくても<br>
+                        問題ありません。<br>
+                        お気軽にご相談ください。
+                    </p>
+                </div>
+
+                <div class="contact-feature">
+                    <div class="feature-icon">
+                        <img src="./assets/images/見積り.svg" alt="">
+                    </div>
+                    <h3>
+                        お見積り無料
+                    </h3>
+                    <p>
+                        ご予算や納期に合わせて、<br>
+                        最適なプランをご提案いたします。
+                    </p>
+                </div>
+
+                <div class="contact-feature">
+                    <div class="feature-icon">
+                        <img src="./assets/images/納期.svg" alt="">
+                    </div>
+                    <h3>
+                        納期のご相談OK
+                    </h3>
+                    <p>
+                        スケジュールに合わせて<br>
+                        柔軟に対応いたします。<br>
+                        まずはご希望をお聞かせください。
+                    </p>
+                </div>
+
+                <div class="contact-feature">
+                    <div class="feature-icon">
+                        <img src="./assets/images/オンライン.svg" alt="">
+                    </div>
+                    <h3>
+                        オンライン対応可能
+                    </h3>
+                    <p>
+                        Zoom・Google Meat などでの<br>
+                        打ち合わせも可能です。<br>
+                        遠方の方もご安心ください。
+                    </p>
+                </div>
+            </div>
+
+
+            <!-- CTA BOX -->
+            <div class="contact-cta-box">
+                <!-- left -->
+                <div class="cta-content">
+                    <h3>
+                        ご相談・お見積りは無料です
+                    </h3>
+                    <p>
+                        小さなご相談でも歓迎です。<br>
+                        あなたの想いや目的に寄り添い、最適なデザインをご提案します。
+                    </p>
+                    <ul class="cta-list">
+                        <li>秘密厳守</li>
+                        <li>即日～2営業日以内に返信</li>
+                        <li>営業はしません</li>
+                    </ul>
+                </div>
+
+                <!-- right -->
+                <div class="cta-button-area">
+                    <a href="#" class="contact-btn">
+                        お問い合わせフォームはこちら
+                    </a>
+                    <a href="mailto:hymr880@gmail.com" class="mail-link">
+                        メールでのお問い合わせはこちら
+                    </a>
+                </div>
+            </div>
+
+            <!-- bottom -->
+            <p class="contact-bottom-text">
+                「こんなこと頼めるかな？」という段階でも大丈夫です。<br>
+                あなたのビジネスやサービスの魅力が、しっかり伝わるデザインを一緒に考えましょう。
+            </p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>© MH Design Portfolio</p>
+    </footer>
+
+    <script src="./assets/js/script.js"></script>
+    <script src="./assets/js/hero-orbs.js"></script>
+</body>
+
+</html>
